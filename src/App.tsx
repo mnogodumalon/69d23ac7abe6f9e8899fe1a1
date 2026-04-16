@@ -12,6 +12,8 @@ import GaestelistePage from '@/pages/GaestelistePage';
 import HochzeitsdetailsPage from '@/pages/HochzeitsdetailsPage';
 import AufgabenToDosPage from '@/pages/AufgabenToDosPage';
 import BudgetplanungPage from '@/pages/BudgetplanungPage';
+// <custom:imports>
+// </custom:imports>
 
 export default function App() {
   return (
@@ -30,6 +32,8 @@ export default function App() {
               <Route path="aufgaben-to-dos" element={<AufgabenToDosPage />} />
               <Route path="budgetplanung" element={<BudgetplanungPage />} />
               <Route path="admin" element={<AdminPage />} />
+              {/* <custom:routes> */}
+              {/* </custom:routes> */}
             </Route>
           </Routes>
         </ActionsProvider>
